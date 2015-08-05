@@ -1,0 +1,31 @@
+{
+  "name": "torann/laravel-pjax-middleware",
+  "description": "Enable the use of PJAX in Laravel.",
+  "keywords": ["laravel", "flight", "flightjs", "pjax", "pushState", "popstate"],
+  "license": "BSD 2-Clause",
+  "authors": [
+    {
+      "name": "Daniel Stainback",
+      "email": "daniel@lyften.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "illuminate/support": "~5.1",
+    "symfony/dom-crawler": "2.7.*"
+  },
+  "require-dev": {
+    "mockery/mockery": "0.7.x",
+    "phpunit/phpunit": "3.7.x"
+  },
+  "autoload": {
+    "psr-4": {
+      "Torann\\Pjax\\": "src/Torann/Pjax"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1-dev"
+    }
+  }
+}
