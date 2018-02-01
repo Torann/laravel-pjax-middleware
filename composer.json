@@ -2,7 +2,7 @@
   "name": "torann/laravel-pjax-middleware",
   "description": "Enable the use of PJAX in Laravel.",
   "keywords": ["laravel", "flight", "flightjs", "pjax", "pushState", "popstate"],
-  "license": "BSD 2-Clause",
+  "license": "BSD-2-Clause",
   "authors": [
     {
       "name": "Daniel Stainback",
